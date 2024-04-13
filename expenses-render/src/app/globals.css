@@ -1,0 +1,27 @@
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entire-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid black;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+}
